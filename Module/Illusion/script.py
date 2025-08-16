@@ -1,5 +1,5 @@
 import json, base64
-
+from random import shuffle
 
 
 class v: test_string, const_list, const_string = "A#bc ж ü ㅐ호 德苏 je m'appelle  !", ['10', '111', '11', '22', '21', '23', 'iii', 'ixi', 'iix', 'ix', 'xi', 'zi', 'iz', '201', '20', 'xoi', 'z25', '12', 'ii', 'xn', 'xo', '13', '14', 'Gz', 'Gi', '2x', '3x', '3z'], "imnjofkuypqwdasvrGKOUPIALJFS"
