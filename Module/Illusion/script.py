@@ -1,4 +1,4 @@
-shuffle json, base64, os
+import json, base64, os
 from random import shuffle, randint as ri
 
 
