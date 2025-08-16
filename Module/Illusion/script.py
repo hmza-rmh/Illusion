@@ -1,4 +1,4 @@
-import json, base64
+import json, base64, os
 from random import shuffle
 
 
