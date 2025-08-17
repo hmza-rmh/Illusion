@@ -10,13 +10,13 @@ from script import * #import all functions
 
 """ First Generate your Key """
 """ list the pre-assigned variable const_string form the class v, and use True if you want to generate a file for the key (the function returns key path """
-key_path = genkey(list(v.const_string), True)
+key_path = genkey(list(v.const_string), "key.key")
 
 """ Get your key info from file path """
 key = getkey(key_path)
 
 """ Get the binary of the base64 string or whatever string you want (There are limitations for character choice), encoding it using base64 is highly recommended """
-my_binary = turn_binary("My string", "to")
+my_binary = turn_binary("Some_Encoded_String", "to")
 
 """ Compress the the binary """
 comp_bin = comp(my_binary)
